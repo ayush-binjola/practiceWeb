@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<body>
+    <div id="pera" class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nobis ab harum cum voluptatibus debitis consequatur placeat dolor sed, ex repellendus maiores ad, impedit voluptatem perspiciatis accusamus nisi vero exercitationem.
+    </div>
+    <button id="btn" onclick="hide()">Shoe hide</button>
+</body>
+<script>
+    function hide() {
+        let btn=document.getElementById('btn');
+        let pera=document.getElementById('pera');
+        if(pera.style.display!='none')
+        {
+            pera.style.display='none';
+        }
+        else{
+            pera.style.display='block';
+        }
+    }
+
+</script>
+</html>

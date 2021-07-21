@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main" class="container">
+        <ul id="nav"><li>name1</li>
+        <li>name2</li>
+        <li>name3</li>
+        <li>name4</li>
+        <li>name5</li></ul>
+    </div>
+    <script>
+let main=document.getElementById('main');
+console.log(main);
+let nav=document.getElementById('nav');
+console.log(nav);
+let container=document.getElementsByClassName('container');
+console.log(container);
+let sel =document.querySelector('#nav>li');
+console.log("selector return ",sel)
+    </script>
+</body>
+</html>
